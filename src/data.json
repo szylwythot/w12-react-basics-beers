@@ -1,0 +1,80 @@
+{
+    "id": "beers",
+    "logo": "Best Beers",
+    "button": "details",
+    "cards": [
+        {
+            "title": "Mango Bay",
+            "sub": "Mad Scientist Beer",
+            "text": "Pale Ale - American",
+            "img" : "blackNwhite.jpg"
+        },
+        {
+            "title": "Távoli Galaxis",
+            "sub": "Rothbeer Brewery",
+            "text": "IPA - American",
+            "img" : "bokor.jpg"
+        },
+        {
+            "title": "Flying Rabbit AIPA",
+            "sub": "MONYO Brewing Co.",
+            "text": "IPA - American",
+            "img" : "child.jpg"
+        },
+        {
+            "title": "Liquid Cocaine",
+            "sub": "Mad Scientist Beer",
+            "text": "IPA - Imperial",
+            "img" : "connection.jpg"
+        },
+        {
+            "title": "Organic Chocolate Stout",
+            "sub": "Samuel Smith Old Brewery",
+            "text": "Stout - English",
+            "img" : "tag.jpg"
+        },
+        {
+            "title": "Bracia",
+            "sub": "Thornbridge Brewery",
+            "text": "Strong Ale - English",
+            "img" : "grapes.jpg"
+        },
+        {
+            "title": "Oatmeal Stout",
+            "sub": "Samuel Smith Old Brewery",
+            "text": "Stout - Oatmeal",
+            "img" : "kissing.jpg"
+        },
+        {
+            "title": "Black Tokyo Horizon",
+            "sub": "BrewDog",
+            "text": "Stout - American Imperial",
+            "img" : "kovek.jpg"
+        },
+        {
+            "title": "Vintage Ale",
+            "sub": "Fuller's",
+            "text": "Old Ale",
+            "img" : "leaves.jpg"
+        },
+        {
+            "title": "All the Leaves are Brown",
+            "sub": "Tempest Brewing Company",
+            "text": "Brown Ale - American",
+            "img" : "kissing.jpg"
+        },
+        {
+            "title": "Soproni IPA",
+            "sub": "Soproni",
+            "text": "Indian Pale Ale",
+            "img" : "kovek.jpg"
+        },
+        {
+            "title": "Bambi",
+            "sub": "Communism",
+            "text": "Bubbly red soft drink",
+            "img" : "ozike.jpg"
+        }
+
+    ]
+}
