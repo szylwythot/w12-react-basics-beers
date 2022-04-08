@@ -3,11 +3,9 @@ import ReactDOM from 'react-dom';
 import Beers from './components/Beers'
 import data from './data'
 
-console.log(data.logo);
-
 ReactDOM.render(
   <React.StrictMode>
-      <Beers />
+      <Beers beersList={data.cards} />
   </React.StrictMode>,
   document.getElementById('root')
 );

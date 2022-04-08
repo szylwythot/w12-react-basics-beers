@@ -1,7 +1,10 @@
-function Beer () {
+function Beer (props) {
      return (
         <div className="beer">
-            Beer
+            <div className="beer">
+                {props.beerInfo.title}
+                {/* {props.randomNumber} */}
+            </div>
         </div>
      );
 }
