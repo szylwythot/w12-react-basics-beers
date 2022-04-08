@@ -5,10 +5,12 @@
 //     requiredContext.keys().map((item) => { images[item.replace('./', '')] = requiredContext(item); });
 //     return images;
 // }
-
 // const images = importAll(require.context('./images', false, /\.(png|jpe?g|svg)$/));
 
-function Beer ({title, sub, text, img} ) {
+
+
+function Beer ( {info} ) {
+    const {title, sub, text, img } = info;
      return (
         <div className="beer">
               {/* <img src={images['doggy.png']} /> */}
