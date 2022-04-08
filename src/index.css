@@ -1,0 +1,140 @@
+body{
+    width: 100vw;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #225456 ;
+    text-align: center;
+    font-size: 14px;
+
+    color: #0f1f35;
+    font-weight: 500;
+
+    --circle-radius: 900px;
+    /* --circle-radius: calc(100vh - 40px); */
+    --circle-background : #f8da92;
+    --degree: 30deg;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Rum Raisin', sans-serif;
+}
+
+#root{
+    width: 100%;
+    height: 100%
+}
+
+#root h3{
+    font-size: 18px;
+    z-index: 99;
+}
+
+#root{
+    width: 100vw;
+    height: 100%;
+}
+
+#root .beers{
+    width: var(--circle-radius);
+    height: var(--circle-radius);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: var(--circle-background);
+    
+    border-radius: calc(100vh - 40px);
+}
+
+#root .beers .beer{
+    position: absolute;
+    top: -15px;
+    right: calc(50% - 75px);
+
+    width: 150px;
+    height: 250px;
+    background-color: #f7f3ec;
+
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 5px 3px rgb(236, 107, 102, 0.5) ;
+
+    transform-origin: 75px 465px;
+}
+
+#root .beers .beer:nth-child(1){
+    transform: rotate(30deg);
+}
+
+
+#root .beers .beer:nth-child(2){
+    transform: rotate(60deg);
+}
+
+#root .beers .beer:nth-child(3){
+    transform: rotate(90deg);
+}
+
+#root .beers .beer:nth-child(4){
+    transform: rotate(120deg);
+}
+
+#root .beers .beer:nth-child(5){
+    transform: rotate(150deg);
+}
+
+#root .beers .beer:nth-child(6){
+    transform: rotate(180deg);
+}
+
+#root .beers .beer:nth-child(7){
+    transform: rotate(210deg);
+}
+
+#root .beers .beer:nth-child(8){
+    transform: rotate(240deg);
+}
+
+#root .beers .beer:nth-child(9){
+    transform: rotate(270deg);
+}
+
+#root .beers .beer:nth-child(10){
+    transform: rotate(300deg);
+}
+
+#root .beers .beer:nth-child(11){
+    transform: rotate(330deg);
+}
+
+#root .beers .beer:nth-child(12){
+    transform: rotate(0deg);
+}
+
+#root .beers .beer img{
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+#root .beers .beer h2{
+    font-size: 22px;
+    color: #225456;
+    
+}
+
+#root .beers .beer .sub{
+    font-size: 14px;
+    color: #ec6b66;
+}
+
+#root .beers .beer .text{
+    color: #0f1f35;
+}

@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Beers from './components/Beers'
-import data from './data'
+import data from './data';
+import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
