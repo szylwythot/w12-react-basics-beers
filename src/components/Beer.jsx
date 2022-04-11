@@ -9,7 +9,7 @@
 
 
 
-function Beer ( {info} ) {
+function Beer ( {info, rndNbr} ) {
     const {title, sub, text, img } = info;
      return (
         <div className="beer">
@@ -18,6 +18,7 @@ function Beer ( {info} ) {
             <h2>{title}</h2>
             <p className="sub">{sub}</p>
             <p className="text">{text}</p>
+            <button onClick={(event) => console.log("Clicked")}>Click me!</button>
         </div>
      );
 }

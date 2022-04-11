@@ -4,7 +4,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #225456 ;
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
 
     color: #0f1f35;
     font-weight: 500;
@@ -125,16 +125,26 @@ h1, h2, h3, h4{
 }
 
 #root .beers .beer h2{
-    font-size: 22px;
+    font-size: 16px;
     color: #225456;
     
 }
 
 #root .beers .beer .sub{
-    font-size: 14px;
+    font-size: 10px;
     color: #ec6b66;
 }
 
 #root .beers .beer .text{
     color: #0f1f35;
+}
+
+#root .beers .beer button{
+    background-color: #225456;
+
+    padding: 2px 5px 2px 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+    color: #f7f3ec;
 }
